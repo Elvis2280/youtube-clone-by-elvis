@@ -11,7 +11,7 @@ const LoadingPage = (props) => {
       <p className="text-black pt-3">Loading...</p>
     </div>
   ) : (
-    <div className="col-span-12 flex flex-col items-center transform -translate-y-2/4 absolute top-0">
+    <div className="col-span-12 flex flex-col items-center transform -translate-y-2/4 absolute top-2/4">
       <img
         className="h-auto w-8/12 sm:h-2/4 sm:w-2/4"
         src={image}
