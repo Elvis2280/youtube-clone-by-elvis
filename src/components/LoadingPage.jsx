@@ -8,7 +8,7 @@ const LoadingPage = (props) => {
   return promiseInProgress ? (
     <div class="fixed top-0 right-0 h-screen w-screen z-50 flex flex-col justify-center items-center">
       <div class="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-red-600"></div>
-      <p className="text-black pt-3">Loading...</p>
+      <p className="text-green-400 pt-3">Loading...</p>
     </div>
   ) : (
     <div className="col-span-12 flex flex-col items-center transform -translate-y-2/4 absolute top-2/4">
