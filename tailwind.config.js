@@ -4,7 +4,10 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      dancing: ['Dancing Script', 'cursive'],
+      dancing: ['Dancing Script', 'arial', 'cursive'],
+    },
+    zIndex: {
+      '-10': '-10',
     },
   },
   variants: {
