@@ -6,5 +6,6 @@ export default axios.create({
     key: 'AIzaSyDtnDIHTJHvz-7QpYWGUFu348oZwYBhD7k',
     maxResults: 6,
     part: 'snippet',
+    type: 'video',
   },
 });
